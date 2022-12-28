@@ -1,0 +1,3 @@
+[submodule "JoneySdk"]
+	path = JoneySdk
+	url = https://github.com/Joneyliu1992/JoneySdk.git
