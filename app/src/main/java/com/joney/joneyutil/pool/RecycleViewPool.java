@@ -30,6 +30,11 @@ public class RecycleViewPool {
         return scrapData;
     }
 
+    /**
+     *
+     * @param viewType
+     * @return
+     */
     public ViewHolder getRecycleView(int viewType) {
         final ScrapData scrapData = mScrap.get(viewType);
         if (scrapData != null && !scrapData.mScrapHeap.isEmpty()) {
